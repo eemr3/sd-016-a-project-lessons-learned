@@ -66,10 +66,27 @@ body{
   
 }
 
-.article-learned {
-  width: 30%;
-  text-align: justify;
+div {
+    
 }
+
+.lado-direito {
+  width: 40%;
+  text-align: justify;
+  margin-right: 10px;
+  height: 230px;
+  float: right;
+  top: 400px;
+}
+
+.lado-esquerdo{
+  width: 40%;
+  text-align: justify;
+  display: inline-block;
+  height: 230px;
+  top: 100px;
+}
+
 .article-learned > p {
   line-height: 25px;
 }
@@ -79,3 +96,4 @@ body{
   width: 430px;
   margin-bottom: 20px;
 }
+
