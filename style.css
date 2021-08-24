@@ -1,6 +1,6 @@
 body{
   background-color: rgb(253, 251, 251);
-  height: 100vh;
+    
 }
 
 #cabecalho {
@@ -14,4 +14,12 @@ body{
 
 #lessons_learned {
   margin-top: 210px;
+}
+
+#rodape {
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 20px;
+  text-align: center;
 }
