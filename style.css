@@ -1,12 +1,14 @@
 body{
   background-color: rgb(253, 251, 251);
   font-family: Arial, Helvetica, sans-serif;
-    
+  height: 100vh;    
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  
+    
 }
 
 #minha_foto {
@@ -17,18 +19,23 @@ body{
   margin-top: 210px;
 }
 
-#rodape {
-  width: 90%;
-  position: absolute;
-  bottom: 0;
-  padding-bottom: 20px;
-  text-align: center;
-}
-
 #licoes_a_aprender a{
   color: #1f1ff7;
 }
 
 #licoes_a_aprender li a {
   text-decoration: none;
+}
+
+.nav-footer ul li{
+  display: inline-block;
+}
+
+.nav-footer ul li a {
+  text-decoration: none;
+  color: #1f1ff7;
+  background-color: blanchedalmond;
+  padding: 10px 0;
+  width: 140px;
+  display: inline-block;
 }
