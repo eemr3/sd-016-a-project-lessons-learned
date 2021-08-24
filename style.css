@@ -1,10 +1,65 @@
-body{
+body {
   background-color: rgb(253, 251, 251);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
-  margin: 0 10px 0 20px;
+  margin: 0;
   min-height: 100vh;
- 
+}
+
+#cabecalho {
+  background-color: rgb(154, 147, 147);
+  box-sizing: border-box;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#titulo {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#minha_foto {
+  display: inline-block;
+  width: 100px;
+}
+
+#rodape {
+  background-color: rgb(155, 148, 148);
+  margin-top: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  text-align: center;
+}
+
+#lessons_learned {
+  margin-top: 210px;
+}
+
+.nav-footer ul li a {
+  text-decoration: none;
+  color: rgb(31, 31, 247);
+  background-color: blanchedalmond;
+  padding: 10px 0;
+  width: 140px;
+  display: inline-block;
+}
+
+#licoes_a_aprender a {
+  color: rgb(31, 31, 247);
+}
+
+#licoes_a_aprender li a {
+  text-decoration: none;
+}
+
+.lessons {
+  margin-top: 40px;
+  padding: 2%;
 }
 
 .list-skills {
@@ -19,55 +74,9 @@ body{
 .menu ul li {
   display: inline-block;
 }
-#cabecalho {
-  position: fixed;
-  top: 0;
-  
-}
 
-#rodape {
-  background-color: grey;
-  margin-top: 10px  ;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: 10;
-  width: 100%;
-  text-align: center;
-}
-
-#minha_foto {
-  width: 100px;
-}
-
-#lessons_learned {
-  margin-top: 210px;
-}
-
-#licoes_a_aprender a{
-  color: #1f1ff7;
-}
-
-#licoes_a_aprender li a {
-  text-decoration: none;
-}
-
-.nav-footer ul li{
+.nav-footer ul li {
   display: inline-block;
-}
-
-.nav-footer ul li a {
-  text-decoration: none;
-  color: #1f1ff7;
-  background-color: blanchedalmond;
-  padding: 10px 0;
-  width: 140px;
-  display: inline-block;
-  
-}
-
-div {
-    
 }
 
 .lado-direito {
@@ -79,7 +88,7 @@ div {
   top: 400px;
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
   width: 40%;
   text-align: justify;
   display: inline-block;
@@ -92,8 +101,7 @@ div {
 }
 
 .table_infor {
-  border: 1px solid #000000;
+  border: 1px solid black;
   width: 430px;
   margin-bottom: 20px;
 }
-
